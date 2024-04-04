@@ -13,3 +13,4 @@ let mod = 5 % 2; // 1
 let pow = 5 ** 2; // 25
 
 let ex1 = 2 * (1 - 6 / 2); // -4
+,gdhjfkjf

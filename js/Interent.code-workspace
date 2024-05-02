@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "hometown",
+			"path": "../../hometown"
+		},
+		{
+			"name": "resume",
+			"path": "../../resume"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Interent"
+	}
+}

@@ -1,0 +1,104 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 200px;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.centerflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cel {
+    border: 1px solid teal;
+}
+.one {
+    width: 10%;
+    height: 15%;
+}
+.two {
+    width: 20%;
+    height: 15%;
+}
+.three {
+    width: 30%;
+    height: 15%;
+}
+
+.containerG {
+    height: 1000px;
+    width: 75%;
+    padding: 1em;
+    display: grid;
+    grid-template-areas: 
+    "one one two two two"
+    "one one three three three"
+    "one one three three three"
+    "one one four four five"
+    "six seven eight eight five";
+    gap: 1em;
+    margin-left: 200px;
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oneG {
+    grid-area: one;
+    background-color: grey;
+    border-radius: 10px;
+}
+.twoG {
+    grid-area: two;
+    background-color: grey;
+    border-radius: 10px;
+}
+.threeG {
+    grid-area: three;
+    background-color: grey;
+    border-radius: 10px;
+}
+.fourG{
+    grid-area: four;
+    background-color: grey;
+    border-radius: 10px;
+}
+.fiveG{
+    grid-area: five;
+    background-color: grey;
+    border-radius: 10px;
+}
+.sixG{
+    grid-area: six;
+    background-color: grey;
+    border-radius: 10px;
+}
+.sevenG{
+    grid-area: seven;
+    background-color: grey;
+    border-radius: 10px;
+}
+.eightG{
+    grid-area: eight;
+    background-color: grey;
+    border-radius: 10px;
+}

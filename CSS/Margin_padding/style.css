@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.border {
+    border: 1px solid red;
+}
+.borderBlue {
+    border: 2px solid blue;
+}
+.row1, .row2, .row3 {
+    margin-bottom: 20px;
+}
+.marginRight {
+    margin-right: 50px;
+}
+.marginLeft {
+    margin-left: 20px;
+}
+.marginTop {
+    margin-top: 30px;
+}
+.marginBottom {
+    margin-Bottom: 40px;
+}
+.margin {
+    margin: 10px 20px;
+}
+
+.Blue{
+    border: 2px solid black;
+}
+.ro1, .ro2, .ro3{
+    margin-bottom: 20px;
+}
+.paddingRight {
+    padding-right: 10px;
+}
+.paddingLeft {
+    padding-left: 50px;
+}
+.paddingTop{
+    padding-top: 40px;
+}
+.paddingBottom{
+    padding-bottom: 30px;
+}
+.padding{
+    padding: 40px 30px 40px 30px;
+}
+
+.conatiner{
+    height: 135px;
+    width: 100px;
+    border: 2px solid red;
+}
+#ones{
+    margin-left: 89px;
+}
+#twos{
+    margin-left:  81px;
+}
+#threes{
+    margin-left:  72px;
+}
+#fours{
+    margin-left:  64px;
+}
+
+.box{
+    height: 50px;
+    width: 70px;
+    border: 2px solid blue;
+}
+#leftbottom{
+    margin-left: 30px;
+}

@@ -1,0 +1,167 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.containerborder{
+    box-sizing: border-box;
+    height: 100px;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border {
+    border: 2px solid;
+    padding: 0.5em;
+}
+.red {
+    border: 2px none red;
+}
+.rgb {
+    border: 2px hidden blue;
+}
+.rgba {
+    border: 2px dotted orange;
+}
+.rgbaa{
+    border: 2px dashed black;
+}
+.rgbab{
+    border: 2px solid lightblue;
+}
+.rgbac{
+    border: 2px double grey;
+}
+.rgbad{
+    border: 2px groove green;
+    background-color: black;
+    color: white;
+}
+.rgbae{
+    border: 2px ridge violet;
+    background-color: blue;
+}
+.rgbaf{
+    border: 2px inset tomato;
+    background: linear-gradient(red, green);
+}
+.rgbag{
+    border: 2px outset aqua;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 35%, rgba(255,5,0,1) 100%);
+    color: white;
+}
+.rgbah{
+    border: 2px solid black;
+    color: white;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 35%, rgba(61,255,0,1) 100%);
+}
+
+.containerslides{
+    box-sizing: border-box;
+    height: 100px;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell {
+    padding: 0.5em;
+}
+.top {
+    border-top: 2px solid red;
+}
+.right {
+    border-right: 2px solid red;
+}
+.bottom {
+    border-bottom: 2px solid red;
+}
+.left {
+    border-left: 2px solid red;
+}
+
+.containerG {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slidescolor {
+    border: 1px solid teal;
+    padding: 0.5em;
+    width: 10%;
+    height: 50px;
+}
+.round {
+    border-radius: 50%;
+}
+.opposite {
+    border-radius: 50% 70%;
+}
+.different {
+    border-radius: 10% 20% 30% 40%;
+}
+
+.containerA {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    gap: 1.5em;
+}
+.offset {
+    box-shadow: 3px 2px gray;
+    text-shadow: 3px 2px gray;
+}
+.blur {
+    box-shadow: 3px 2px 2px gray;
+    text-shadow: 3px 2px 2px gray;
+}
+.blurSpread {
+    box-shadow: 3px 2px 2px 1px gray;
+    text-shadow: 3px 2px 2px gray;
+}
+.multiple {
+    box-shadow: 5px 5px 3px gray, -5px -5px 3px red;
+    text-shadow: 5px 5px 3px gray, -5px -5px 3px red;
+}

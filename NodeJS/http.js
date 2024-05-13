@@ -1,4 +1,3 @@
-
 let nameElement = document.querySelector('.name');
 let surnameElement = document.querySelector('.surname')
 let surnameInput = document.querySelector('#surnameInput');
@@ -28,5 +27,5 @@ const postSurname = async () => {
         return;
     }
     let { surname } = await res.json();
-    surnameElement.textContent = surname;
+    surnameElement.textContent = surname;
 }

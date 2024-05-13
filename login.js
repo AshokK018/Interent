@@ -1,5 +1,4 @@
 
-
 let usernameInput = document.querySelector('#username');
 let passwordInput = document.querySelector('#password');
 let welcome = document.querySelector('.welcome');
@@ -25,4 +24,3 @@ const logIn = async () => {
     let { surname } = await res.json();
     welcome.textContent = surname;
 }
-  

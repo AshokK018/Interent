@@ -1,4 +1,3 @@
-
 import { createServer } from 'node:http';
 import fs from 'node:fs/promises';
 
@@ -20,7 +19,7 @@ const server = createServer( async (req, res) => {
       res.statusCode = 200;
       res.setHeader('Content-Type', 'text/plain');
       res.setHeader('Access-Control-Allow-Origin', "*");
-      res.end("Mithilesh");
+      res.end("Harshith");
       // console.log(res)
     }
     if(req.method == 'OPTIONS') {
@@ -44,7 +43,7 @@ const server = createServer( async (req, res) => {
           console.log('Password...', password);
           await writeToFile(username);
           await writeToFile(password);
-          let surname = 'Kumar';
+          let surname = 'Srinivas';
           res.statusCode = 200;
           res.setHeader('Content-Type', 'text/plain');
           res.setHeader('Access-Control-Allow-Origin', "*");
@@ -63,4 +62,3 @@ const server = createServer( async (req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
- 

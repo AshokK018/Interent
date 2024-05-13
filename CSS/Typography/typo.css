@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    height: 200px;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell {
+    border: 1px solid teal;
+    padding: 0.5em;
+}
+.family{
+    font-family: sans-serif;
+}
+.size{
+    font-size: 20px;
+}
+.variant{
+    font-variant: normal;
+}
+.varian{
+    font-variant: small-caps;
+}
+.variat{
+    font-variant: petite-caps;
+}
+.style{
+    font-style: normal;
+}
+.styl{
+    font-style: italic;
+}
+.stye{
+    font-style: oblique;
+}
+.weight{
+    font-weight: 600;
+}
+
+.containerG {
+    height: auto;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+.lineThrough {
+    text-decoration: line-through;
+}
+.overline {
+    text-decoration: overline;
+}
+.underline {
+    text-decoration: underline;
+}
+.none {
+    text-decoration: none;
+}
+
+.containerA {
+    height: auto;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+.letter {
+    letter-spacing: 0.5em;
+}
+.word {
+    word-spacing: 1em;
+}
+.line {
+    line-height: 1em;
+}
+.white {
+    white-space: nowrap;
+}
+
+.containerC {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell {
+    border: 1px solid teal;
+    padding: 0.5em;
+}
+.indent {
+    text-indent: 5em;
+}
+.align {
+    text-align: right;
+}
+.float {
+    float: right;
+}
